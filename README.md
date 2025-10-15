@@ -6,7 +6,7 @@ A custom dual-system handheld that combines original Nintendo DS Lite hardware w
 - Capture DS Lite top-screen RGB signal video and output to an OLED via FPGA
 
 -Utilize original bottom resistive touch screen to retain original touch “feel” 
-    -Use as mouse for emulation mode? Tap into analog x/y signals from original hardware and convert into USB hid? Would need a touch       controller. Maybe include screen on bottom as well so it is clear exactly where you are clicking? Or just use as a trackpad?           Perhaps it can have different modes, such as a telemetry/stats mode.   
+ -Use as mouse for emulation mode? Tap into analog x/y signals from original hardware and convert into USB hid? Would need a touch       controller. Maybe include screen on bottom as well so it is clear exactly where you are clicking? Or just use as a trackpad?           Perhaps it can have different modes, such as a telemetry/stats mode.   
 - Provide a second "PC/emulation" mode   
     -Use RaspberryPi or MiniPC for initial testing of switching 
     -Switch to a custom board with an open SOC later 
