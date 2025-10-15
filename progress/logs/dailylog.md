@@ -1,4 +1,9 @@
 ## Day 0: 
+# Completed work:
+  - Bought DS Lite + GBA Game/DS Game
+  - Created initial draf tof flow chart showing components
+  - Began CAD for shell to get a rough idea on ergonomics
+# Notes
   - I'm not quite sure where the idea for this came to me but I know it was at 9 AM in my Embedded Design class
   - I'm really excited for this idea and am full-sending it, I have already purchased the DS lite and am planning out what else I will purchase and I am researching everything I may need
   - While I wait, I'm going to sketch out schematics, first I think I'm going just get a rough idea of what needs to connect to what
