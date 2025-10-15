@@ -1,2 +1,40 @@
-# projectdsx
-Project DSX is a dual-system handheld that integrates original Nintendo DS Lite hardware for native cartridge play with a switchable modern SOC computer mode for higher wattage emulation and general compute. 
+# Project DSX 
+ 
+A custom dual-system handheld that combines original Nintendo DS Lite hardware with a modern computer mode. 
+ 
+## Goals 
+- Capture DS Lite top-screen RGB signal video and output to an OLED via FPGA
+
+-Utilize original bottom resistive touch screen to retain original touch “feel” 
+    -Use as mouse for emulation mode? Tap into analog x/y signals from original hardware and convert into USB hid? Would need a touch       controller. Maybe include screen on bottom as well so it is clear exactly where you are clicking? Or just use as a trackpad?           Perhaps it can have different modes, such as a telemetry/stats mode.   
+- Provide a second "PC/emulation" mode   
+    -Use RaspberryPi or MiniPC for initial testing of switching 
+    -Switch to a custom board with an open SOC later 
+
+-Physically switch between modes  
+    -Maybe make it a software choice in future somehow?? Similar to Nvidia dGPU iGPU switching? To do that in DS side might require         some sort of custom firmware? 
+- Custom power system: USB-C PD charging + Li-ion battery with safe switching 
+- Compact, ergonomic enclosure and user interface  
+
+## Architecture 
+1. **DS Mode** — DS Lite board runs natively; FPGA samples top-screen RGB + sync and repackages to the OLED. Thumbstick input is translated into four discrete directions/eight if two simulataneous count as a diagonal. 
+2. **Computer Mode** — SBC boots Linux/Windows?? and drives the OLED directly. Controls are routed via microcontroller (USB HID). Original DS resistive touch panel is routed as a mouse.  
+3. **Power** — Li-ion with USB-C PD charge controller. MOSFET switching isolates the inactive system
+
+
+## Status 
+**10/15/25 Week 1:** Planning and parts research. Focus: DS signal capture and FPGA pipeline. 
+ 
+## Parts
+- DS Lite donor (motherboard + bottom LCD/touch) — donor unit 
+- Top OLED 5.5" (HDMI driver board) 
+- FPGA dev board (TBD) 
+- Logic analyzer (To help convert DS lite signals to modern display) 
+- Raspberry Pi 5 (for initial testing) 
+- USB-C PD module + voltage regulator, 2×21700(?) cells, MOSFET for switching 
+- RP2040(?) for buttons, switches, power telemetry 
+- Small speakers, fan, buttons, 3D print for shell 
+    -Maybe use original speakers, original buttons? 
+-Add analog thumbsticks(from 3ds?) 
+    -Would require translation to function directly with DS hardware as the original never included analog thumbstick support. 
+
