@@ -1,0 +1,2 @@
+- Scope creep
+  - So I was thinking it might be cool if this works with an external keyboard, maybe make it dockable? I could make a custom enclosure for a keyboard to make it function as a Laptop?
