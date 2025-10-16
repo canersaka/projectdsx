@@ -28,11 +28,13 @@ A custom dual-system handheld that combines original Nintendo DS Lite hardware w
 - DS Lite donor (motherboard + bottom LCD/touch) — donor unit
 - Top OLED 5.5" (HDMI driver board)
 - FPGA dev board (TBD)
-- Logic analyzer (to help convert DS Lite signals to a modern display)
+  - As of 10/16: Tang Nano 9K, which eliminates a good amount of other components
+~- Logic analyzer (to help convert DS Lite signals to a modern display)~
+~- Switches for display, audio, input, etc.~
 - Raspberry Pi 5 (for initial testing)
 - USB-C PD module + voltage regulator, 2×21700 cells (?), MOSFET for switching
-- RP2040 (?), for buttons, switches, power telemetry
+~- RP2040 (?), for buttons, switches, power telemetry~
 - Small speakers, fan, buttons, 3D print for shell
   - Maybe use original speakers and buttons?
 - Add analog thumbsticks (from 3DS?)
-  - Would require translation to function directly with DS hardware as the original never included analog thumbstick support.
+~  - Would require translation to function directly with DS hardware as the original never included analog thumbstick support.~
