@@ -20,7 +20,7 @@ A custom dual-system handheld that combines original Nintendo DS Lite hardware w
 1. **DS Mode** — DS Lite board runs natively; FPGA samples top-screen RGB + sync and repackages to the OLED. Thumbstick input is translated into four discrete directions (eight when diagonals are detected).
 2. **Computer Mode** — SBC boots Linux/Windows and drives the OLED directly. Controls are routed via microcontroller (USB HID). Original DS resistive touch panel is routed as a mouse.
 3. **Power** — Li-ion with USB-C PD charge controller. MOSFET switching isolates the inactive system.
-![alt text]((https://github.com/canersaka/projectdsx/blob/main/hardware/schematics/Second%20Schematic%20Draft.png)
+![alt text]((https://github.com/canersaka/projectdsx/blob/main/hardware/schematics/Second%20Schematic%20Draft.png))
 ## Status
 **10/15/25 Week 1:** Planning and parts research. Focus: DS signal capture and FPGA pipeline.
 
