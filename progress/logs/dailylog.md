@@ -19,3 +19,6 @@
   - Also gyro controls would be awesome?? Shouldn't be too hard after everything else
 # 10/21:
   - I had made a great deal of progress on what I want the shell design to be however Solidworks decided to crash right as I was almost finished, and I naturally hadn't saved in over an hour, so that was frustrating. It won't take too long to get it done, however it's Midterm season right now and I am really trying to focus on studying, so this project is on the backburner, most components won't arrive for another few weeks anyways.
+
+11/25:
+- Life really caught up, parts arrived but time has gone out the window. Began work on a video script to help accompany the documentation, currently 800 words long. Will likely resume actual progress over winter break 
