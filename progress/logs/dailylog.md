@@ -21,4 +21,7 @@
   - I had made a great deal of progress on what I want the shell design to be however Solidworks decided to crash right as I was almost finished, and I naturally hadn't saved in over an hour, so that was frustrating. It won't take too long to get it done, however it's Midterm season right now and I am really trying to focus on studying, so this project is on the backburner, most components won't arrive for another few weeks anyways.
 
 11/25:
-- Life really caught up, parts arrived but time has gone out the window. Began work on a video script to help accompany the documentation, currently 800 words long. Will likely resume actual progress over winter break 
+- Life really caught up, parts arrived but time has gone out the window. Began work on a video script to help accompany the documentation, currently 800 words long. Will likely resume actual progress over winter break
+
+4/2/26:
+- No progress, too busy with classes, will have first half of summer to focus on progress. I need to decide which components I'm starting with with, and look further into the DSi XL's differences with the DS lite, the DSi XL seems ideal for a lot of the parts that will be retained, like the touch screen, however the mainboard being larger could be a trade off on what else will fit in the finished housing.
